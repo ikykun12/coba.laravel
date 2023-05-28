@@ -46,61 +46,28 @@
                                     <a class="nav-link" href="#">Home</a>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown_3"
-                                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        pages
-                                    </a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown_2">
-                                        <a class="dropdown-item" href="/pengiriman">Pengiriman </a>
-                                        <a class="dropdown-item" href="/transaksi">Transaksi</a>
-                                        <a class="dropdown-item" href="">shopping cart</a>
-                                    
-                                    </div>
+                                    <li class="nav-item">
+                                    <a class="nav-link" href="{{ ('') }}">Pengiriman</a>
+                                    </li>
+                                    <li class="nav-item">
+                                    <a class="nav-link" href="{{ ('') }}">Transaksi</a>
+                                    </li>
+                                     <li class="nav-item">
+                                    <a class="nav-link" href="{{ ('') }}">Laporan</a>
+                                    </li>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="contact.html">Contact</a>
-                                </li>
+
                             </ul>
                         </div>
                         <div>
-                        @if (Route::has('login'))
-                           @auth
-                               <a href="{{ url('/home') }}">Home</a>
-                                    @else
-                                       <a href="{{ route('login') }}">Log in</a>
-                                    @if (Route::has('register'))
-                                <a href="{{ route('register') }}">Register</a>
-                            @endif
-                        @endauth
-                    @endif         
-                    </div>
-                        <div class="hearer_icon d-flex">
-                            <a id="search_1" href="javascript:void(0)"><i class="ti-search"></i></a>
-                           
-                            <div class="dropdown cart">
-                                <a class="dropdown-toggle" href="#" id="navbarDropdown3" role="button"
-                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    <i class="fas fa-cart-plus"></i>
-                                </a>        
-                            </div>
-                        </div>
+                    </div>  
+                     <a class="navbar-brand" href="#"> <p class="">Logout</p> </a> 
                     </nav>
                 </div>
             </div>
         </div>
-        <div class="search_input" id="search_input_box">
-            <div class="container ">
-                <form class="d-flex justify-content-between search-inner">
-                    <input type="text" class="form-control" id="search_input" placeholder="Search Here">
-                    <button type="submit" class="btn"></button>
-                    <span class="ti-close" id="close_search" title="Close Search"></span>
-                </form>
-            </div>
-        </div>
     </header>
-    
     @yield('container')
-
     {{-- Footer Star --}}
        <footer class="footer_part">
         <div class="copyright_part">
@@ -116,9 +83,7 @@
             </div>
         </div>
     </footer>
-
-       <!--::footer_part end::-->
-
+    <!--::footer_part end::-->
     <!-- jquery plugins here-->
     <script src="js/jquery-1.12.1.min.js"></script>
     <!-- popper js -->

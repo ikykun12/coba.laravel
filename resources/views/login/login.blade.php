@@ -23,13 +23,11 @@
                 <input type="password" class="form-control" name="password" id="floatingPassword" placeholder="Password">
                 <label for="floatingPassword">Password</label>
               </div>
-              
               <div class="d-grid">
                 <button class="btn btn-primary btn-login text-uppercase fw-bold" type="submit">Sign
                   in</button>
               </div>
               <hr class="my-4">
-             
               </div>
             </form>
           </div>

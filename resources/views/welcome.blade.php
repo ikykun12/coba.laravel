@@ -190,75 +190,60 @@
     <!-- product_list part start-->
 
 
-    <!-- awesome_shop start-->
-  <h1 class="text-center">sale</h1>
+    <!-- Halaman Promo Start-->
+  
     <section class="our_offer section_padding">
-       
         <div class="container">
-            
-            <div class="row align-items-center justify-content-between">
-                <div class="col-lg-6 col-md-6">
-                    <div class="offer_img">
-                        <img src="img/Yamaha_Logo.png" alt="">
+        <h1 class="card-text"><small >Sale Semua Product</small></h1>
+ 
+        <div class="align-items-center justify-content-between">
+            <div class="card mb-3" >
+                <div class="row g-0">
+                    <div class="col-md-4">
+                    <img src="{{ asset('img/Suzuki_Logo.jpg') }}" class="img-fluid rounded-start" width="200px" height="250" alt="Suzuki">
+                    </div>
+                    <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Suzuki </h5>
+                        <p class="card-text">Suzuki Motor Corporation adalah sebuah perusahaan multinasional yang berkantor pusat di Minami-ku, Hamamatsu, Jepang. Suzuki memproduksi mobil, kendaraan four-wheel drive, sepeda motor, all-terrain vehicles, mesin tempel, kursi roda, dan berbagai macam mesin pembakaran dalam kecil lain</p>
+                    </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6">
-                    <div class="offer_text">
-                        <h2>Sale Setiap Type Motor Yamaha</h2>
-                        <div class="date_countdown">
-                            <div id="timer">
-                                <div id="days" class="date"></div>
-                                <div id="hours" class="date"></div>
-                                <div id="minutes" class="date"></div>
-                                <div id="seconds" class="date"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row align-items-center justify-content-between">
-                <div class="col-lg-6 col-md-6">
-                    <div class="offer_text">
-                        <h2>Sale Setiap Type Motor Suzuki</h2>
-                        <div class="date_countdown">
-                            <div id="timer">
-                                <div id="days" class="date"></div>
-                                <div id="hours" class="date"></div>
-                                <div id="minutes" class="date"></div>
-                                <div id="seconds" class="date"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                  <div class="col-lg-6 col-md-6">
-                    <div class="offer_img">
-                        <img src="img/Suzuki_Logo.jpg" alt="">
-                    </div>
-                </div>
-            </div>
-             <div class="row align-items-center justify-content-between">
-                  <div class="col-lg-6 col-md-6">
-                    <div class="offer_img">
-                        <img src="img/Hondo_Logo.png" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6">
-                    <div class="offer_text">
-                        <h2>Sale Setiap Type Motor Honda</h2>
-                        <div class="date_countdown">
-                            <div id="timer">
-                                <div id="days" class="date"></div>
-                                <div id="hours" class="date"></div>
-                                <div id="minutes" class="date"></div>
-                                <div id="seconds" class="date"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-          
+            </div> 
         </div>
-    </section>
+        <div class="align-items-center justify-content-between">
+                 <div class="card mb-3" >
+                <div class="row g-0">
+                    <div class="col-md-4">
+                    <img src="{{ asset('img/Hondo_Logo.png') }}" class="img-fluid rounded-start"  width="250px" height="250" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Honda</h5>
+                        <p class="card-text">Honda Motor Company, Ltd. adalah sebuah konglomerat multinasional publik asal Jepang yang memproduksi mobil, sepeda motor, dan peralatan daya. Perusahaan ini berkantor pusat di Minato, Tokyo, Jepang.</p>
+                    </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+           <div class="align-items-center justify-content-between">
+                 <div class="card mb-3" >
+                <div class="row g-0">
+                    <div class="col-md-4">
+                    <img src="{{ asset('img/Yamaha_Logo.png') }}" class="img-fluid rounded-start" width="250px" height="250" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Yamaha</h5>
+                        <p class="card-text">Yamaha Motor Co., Ltd. adalah sebuah produsen sepeda motor, produk kelautan, seperti perahu dan mesin tempel, serta produk bermotor lain asal Jepang. Perusahaan ini didirikan pada tahun 1955 sebagai hasil pemisahan dari Yamaha Corporation, dan berkantor pusat di Iwata, Shizuoka, Jepang.</p>
+                    </div>
+                    </div>
+                </div>
+            </div> 
+        </div>  
+          
+    </div>
+</section>
     <!-- awesome_shop part end-->
 
     <!-- product_list part start-->
